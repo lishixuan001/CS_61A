@@ -1,0 +1,35 @@
+{
+    "name": "Lab 4",
+    "endpoint": "cal/cs61a/su17/lab04",
+    "src": [
+        "lab04.py",
+        "lab04_extra.py"
+    ],
+    "tests": {
+        "tests/lists.py": "ok_test",
+        "lab04.py:if_this_not_that": "doctest",
+        "tests/indexing.py": "ok_test",
+        "lab04.py:coords": "doctest",
+        "lab04.py:distance": "doctest",
+        "lab04.py:closer_city": "doctest",
+        "lab04_extra.py:deep_len": "doctest",
+        "lab04_extra.py:riffle": "doctest",
+        "lab04_extra.py:add_matrices": "doctest"
+    },
+    "default_tests": [
+        "indexing",
+        "if_this_not_that",
+        "lists",
+        "coords",
+        "distance",
+        "closer_city"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}

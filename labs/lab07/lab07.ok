@@ -1,0 +1,37 @@
+{
+    "name": "Lab 7",
+    "endpoint": "cal/cs61a/su17/lab07",
+    "src": [
+        "lab07.py"
+    ],
+    "tests": {
+        "lab07.py:same_hailstone": "doctest",
+        "lab07.py:amicable": "doctest",
+        "lab07.py:cycle": "doctest",
+        "lab07.py:part": "doctest",
+        "lab07.py:knapsack": "doctest",
+        "lab07.py:sprout_leaves": "doctest",
+        "lab07.py:group": "doctest",
+        "lab07.py:deep_len": "doctest",
+        "lab07.py:deep_reverse": "doctest"
+    },
+    "default_tests": [
+        "same_hailstone",
+        "amicable",
+        "cycle",
+        "part",
+        "knapsack",
+        "sprout_leaves",
+        "group",
+        "deep_len",
+        "deep_reverse"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

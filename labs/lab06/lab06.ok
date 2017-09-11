@@ -1,0 +1,33 @@
+{
+    "name": "Lab 6",
+    "endpoint": "cal/cs61a/su17/lab06",
+    "src": [
+        "lab06.py",
+        "lab06_extra.py"
+    ],
+    "tests": {
+        "tests/lists.py": "ok_test",
+        "tests/box-pointer.py": "ok_test",
+        "tests/dicts.py": "ok_test",
+        "lab06.py:map": "doctest",
+        "lab06.py:filter": "doctest",
+        "lab06.py:replace_all": "doctest",
+        "lab06_extra.py:deep_map_mut": "doctest",
+        "lab06_extra.py:reverse": "doctest",
+        "lab06_extra.py:counter": "doctest"
+    },
+    "default_tests": [
+       "map",
+       "filter",
+       "replace_all"
+
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
