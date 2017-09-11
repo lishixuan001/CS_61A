@@ -1,0 +1,20 @@
+{
+  "name": "Project 3: Ants Vs. SomeBees",
+  "endpoint": "cal/cs61a/su17/ants",
+  "src": [
+    "ants.py"
+  ],
+  "tests": {
+      "tests/0[0-9].py": "ok_test",
+      "tests/1[0-3].py": "ok_test",
+      "tests/EC.py": "ok_test"
+  },
+  "protocols": [
+      "restore",
+      "file_contents",
+      "unlock",
+      "grading",
+      "analytics",
+      "backup"
+  ]
+}
