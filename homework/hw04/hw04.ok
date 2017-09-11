@@ -1,0 +1,28 @@
+{
+    "name": "Homework 4",
+    "endpoint": "cal/cs61a/su17/hw04",
+    "src": [
+        "hw04.py"
+    ],
+    "tests": {
+        "hw04.py": "doctest"
+    },
+    "default_tests": [
+        "change",
+        "insert",
+        "reverse_iterative",
+        "reverse_recursive",
+        "acorn_finder",
+        "same_shape",
+        "add_trees",
+        "total_weight",
+        "balanced"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Homework 9",
+    "endpoint": "cal/cs61a/su17/hw09",
+    "src": [
+        "hw09.py"
+    ],
+    "tests": {
+        "hw09.py:LinkIterator":"doctest",
+        "hw09.py:in_order":"doctest",
+        "hw09.py:permutations":"doctest",
+        "hw09.py:scale_stream":"doctest",
+        "hw09.py:merge":"doctest",
+        "hw09.py:make_s":"doctest",
+        "hw09.py:make_random_stream":"doctest",
+        "hw09.py:make_stream_of_streams":"doctest"
+    },
+    "default_tests": [
+        "LinkIterator",
+        "in_order",
+        "permutations",
+        "scale_stream",
+        "merge",
+        "make_s",
+        "make_random_stream",
+        "make_stream_of_streams"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

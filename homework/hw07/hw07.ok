@@ -1,0 +1,34 @@
+{
+    "name": "Homework 7",
+    "endpoint": "cal/cs61a/su17/hw07",
+    "src": [
+        "hw07.py"
+    ],
+    "tests": {
+        "hw07.py:every_other":"doctest",
+        "hw07.py:deep_map_mut": "doctest",
+        "hw07.py:two_list": "doctest",
+        "hw07.py:has_cycle": "doctest",
+        "hw07.py:has_cycle_constant": "doctest",
+        "hw07.py:cumulative_sum": "doctest",
+        "hw07.py:prune_min": "doctest",
+        "hw07.py:long_paths":"doctest"
+    },
+    "default_tests": [
+        "every_other",
+        "deep_map_mut",
+        "two_list",
+        "has_cycle",
+        "cumulative_sum",
+        "prune_min",
+        "long_paths"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Homework 10",
+    "endpoint": "cal/cs61a/su17/hw10",
+    "src": [
+        "hw010.sql"
+    ],
+    "tests": {
+        "tests/size_of_dogs.py": "ok_test",
+        "tests/by_height.py": "ok_test",
+        "tests/sentences.py": "ok_test",
+        "tests/above_average.py": "ok_test",
+        "tests/open.py": "ok_test",
+        "tests/allowed.py": "ok_test"
+    },
+    "default_tests": [
+        "size_of_dogs",
+        "by_height",
+        "sentences",
+        "above_average",
+        "open",
+        "allowed"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "collaborate",
+        "backup"
+    ]
+}
