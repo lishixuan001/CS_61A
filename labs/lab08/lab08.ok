@@ -1,0 +1,33 @@
+{
+    "name": "Lab 8",
+    "endpoint": "cal/cs61a/su17/lab08",
+    "src": [
+        "data.py",
+        "classes.py",
+        "vending_machine.py"
+    ],
+    "tests": {
+        "tests/prologue.py": "ok_test",
+        "tests/car.py": "ok_test",
+        "tests/me.py": "ok_test",
+        "classes.py:Player.go_to": "doctest",
+        "classes.py:Player.talk_to": "doctest",
+        "classes.py:Player.take": "doctest",
+        "classes.py:Player.unlock": "doctest",
+        "vending_machine.py:vending_machine": "doctest"
+    },
+    "default_tests": [
+        "prologue",
+        "car",
+        "me",
+        "Player.go_to"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

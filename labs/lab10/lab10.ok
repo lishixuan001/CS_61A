@@ -1,0 +1,34 @@
+{
+    "name": "Lab 10",
+    "endpoint": "cal/cs61a/su17/lab10",
+    "src": [
+        "lab10.scm",
+        "lab10_extra.scm"
+    ],
+    "tests": {
+        "tests/over-or-under.py": "ok_test",
+        "tests/wwsd-lists.py": "ok_test",
+        "tests/make-list.py": "ok_test",
+        "tests/filter.py": "ok_test",
+        "tests/make-adder.py": "ok_test",
+        "tests/remove.py": "ok_test",
+        "tests/composed.py": "ok_test",
+        "tests/gcd.py": "ok_test",
+        "tests/split-at.py": "ok_test"
+    },
+    "default_tests": [
+        "over-or-under",
+        "wwsd-lists",
+        "make-list",
+        "filter",
+        "make-adder"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
